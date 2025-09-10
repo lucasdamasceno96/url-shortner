@@ -1,0 +1,15 @@
+Compiled binary
+url-shortener
+
+Local data files
+/data/*.db
+
+OS-specific files
+.DS_Store
+
+IDE configuration folders
+.vscode/
+.idea/
+
+Local environment files
+.env
