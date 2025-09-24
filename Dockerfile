@@ -1,6 +1,6 @@
 # STAGE 1: Build a aplicação
 # Usamos um "alias" 'builder' para esta fase.
-FROM golang:1.21-alpine AS builder
+FROM golang:1.24-alpine AS builder
 
 # É uma boa prática rodar as ferramentas como um usuário não-root
 RUN adduser -D -g '' appuser
